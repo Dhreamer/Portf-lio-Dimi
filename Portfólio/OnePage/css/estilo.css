@@ -1,0 +1,23 @@
+#menu{
+    height:50px;
+    width: 100%;
+    font-family: 'MontSerrat';
+}  
+
+#intro{
+    margin-top: 10px;
+}
+#Lato{
+    font-family: 'Lato', serif;
+} 
+body, html {
+    height: 100%;
+  }
+.parallax {
+background-image: url("../img_index/masp.jpg") fixed;
+
+}
+
+.icon-midia{
+  padding: 90px;
+}

@@ -1,0 +1,486 @@
+/* Configurações do Topo */
+
+.bg-topo{
+    background-color: #68627a;
+    height: fit-content;
+    z-index: 1;
+    background-size: cover;
+}
+
+.bg-topo1{
+    background-color: #c0c0c0;
+    height: fit-content;
+    z-index: 1;
+    background-size: cover;
+}
+
+.btn-orcamento{
+    border: 2px solid #fff;
+    background: none;
+    position: relative;
+    color: #000;
+    z-index: 1;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.btn-orcamento:hover{
+    color: #fff;
+    background: #000;
+    border-color: #fff;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+#menu{
+    height: fit-content;
+    width: 100%;
+    font-family: 'MontSerrat',sans-serif !important;
+}  
+
+
+/*Seção de Serviços*/
+
+/*.bg-servicos{
+    background: linear-gradient(131.26deg,#312b45 30%, #ff3859 100%);
+
+}*/
+
+
+/* Seção Parallax */
+
+#parallaxBar{
+    height:563px;
+    background-color:#004c82;
+    background: url(../img_index/masp1.jpg) fixed no-repeat;
+    position: relative; 
+}
+
+#parallaxBar .text-name{
+    padding-top: 120px;
+    color: #c0c0c0;
+    font-size: 2em;
+    z-index: 4;
+}
+
+#parallaxBar .p {
+    font-family: 'SimSun-ExtB Bold';
+    font-size: 1.5em;
+    margin-top: -10px;
+    color: #c0c0c0;
+}
+
+/* HOME */
+
+.underline-clientes{
+    content: '';
+    border-top: 3px solid #333;
+    width: 180px;
+    display: block;
+}
+
+/* Áreas de Atuação */
+
+.underline-atuacao {
+    content: '';
+    border-top: 2px solid #c0c0c0;
+    width: 230px;
+    display: block;
+    margin-bottom: 8px;
+    margin: -8px auto 0 auto;
+}
+
+.bgareas{
+    height: fit-content;
+    background-color: #68627a;
+}
+.tituloareas{
+    text-shadow: 0px 0px 2px black;
+    z-index: 3;
+    margin-top: 40%;
+}
+
+.tituloareas1{
+    text-shadow: 0px 0px 2px black;
+    z-index: 3;
+    margin-top: 37%;
+}
+
+.tituloareas:hover{
+    text-shadow: 0px 0px 2px black;
+    z-index: 1 !important;
+    visibility: hidden;
+}
+
+.card-img:hover{
+    z-index: 3 !important;
+}
+
+#foto {
+    opacity: 0;
+    position: relative;
+    top: -134px;
+    background-color: rgba(0, 0, 0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    transition: opacity 9s;
+    transform: scale(1.17);
+    z-index: 4;
+}
+
+#foto:hover {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(1.17);
+    transition: all .3s ease-in;
+}
+
+#foto1 {
+    opacity: 0;
+    position: relative;
+    top: -134px;
+    background-color: rgba(0, 0, 0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 9s;
+    font-size: 14px;
+    transform: scale(1.17);
+    z-index: 4;
+}
+
+#foto1:hover {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(1.17);
+    transition: all .3s ease-in;
+}
+
+#foto2 {
+    opacity: 0;
+    position: relative;
+    top: -134px;
+    background-color: rgba(0, 0, 0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 9s;
+    font-size: 14px;
+    transform: scale(1.17);
+    z-index: 4;
+}
+
+#foto2:hover {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(1.17);
+    transition: all .3s ease-in;
+}
+
+#foto3 {
+    opacity: 0;
+    position: relative;
+    top: -134px;
+    background-color: rgba(0, 0, 0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 9s;
+    font-size: 14px;
+    transform: scale(1.17);
+    z-index: 4;
+}
+
+#foto3:hover {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(1.17);
+    transition: all .3s ease-in;
+}
+
+#foto4 {
+    opacity: 0;
+    position: relative;
+    top: -134px;
+    background-color: rgba(0, 0, 0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 9s;
+    font-size: 14px;
+    transform: scale(1.17);
+    z-index: 4;
+}
+
+#foto4:hover {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(1.17);
+    transition: all .3s ease-in;
+}
+
+#foto5 {
+    opacity: 0;
+    position: relative;
+    top: -155px;
+    background-color: rgba(0, 0, 0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 9s;
+    font-size: 14px;
+    transform: scale(1.17);
+    z-index: 4;
+}
+
+#foto5:hover {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(1.17);
+    transition: all .3s ease-in;
+}
+
+#album-foto{
+    z-index:2;
+    background: url(../img_index/civil1.jpg) no-repeat, content;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    transition: all .3s ease-in;
+    border: 5px solid white;
+    margin: 0 auto;
+}
+
+#album-foto:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-in;
+    z-index: 3;
+    border-color: darkorange;
+}
+
+
+/* Seção Quem Somos*/
+
+.underline-quemsomos{
+    content: '';
+    border-top: 3px solid #333;
+    width: 170px;
+    display: block;
+    margin-bottom: 8px;
+    margin: -7px auto 0 auto;
+}
+
+.btn-prev{
+    width:25px;
+    background-color: #c0c0c0;
+}
+
+.btn-next{
+    width:25px;
+    background-color: #c0c0c0;
+}
+
+.quemsomos{
+    text-decoration: none;
+    color:inherit;
+}
+
+.quemsomos:hover{
+    text-decoration: none;
+    color:inherit;
+    
+}
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+@media (min-width: 300px){
+    .bi{
+        width: 1em;
+        height: 1em;
+    }
+}
+@media (min-width: 576px){
+    .box{
+        width: 25em; 
+    }
+    .bi{
+        width: 1em;
+        height: 1em;
+    }
+}
+@media (min-width: 768px){
+    .box{
+        width: 35em; 
+    }
+    .bi{
+        width: 2em;
+        height: 2em;
+    }
+}
+@media (min-width: 992px){
+    .box{
+        width: 25em; 
+    }
+    .bi{
+        width: 3em;
+        height: 3em;
+    }
+}
+@media (min-width: 1200px){
+    .box{
+        width: 35em;
+    }
+    .bi{
+        width: 3em;
+        height: 3em;
+    }
+}
+
+/*Seção Contato*/
+
+
+.underline-contato{
+    content: '';
+    border-top: 2px solid #333;
+    width: 180px;
+    display: block;
+    margin: -5px auto 10px 30px;
+}
+
+.underline-contato2{
+    content: '';
+    border-top: 2px solid #333;
+    width: 210px;
+    display: block;
+    margin: -5px auto 10px 30px;
+}
+
+.underline-contato3{
+    content: '';
+    border-top: 3px solid #333;
+    width: 330px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto 0 auto;
+}
+
+.contato {
+    margin-top: 10px;
+}
+
+.local {
+    font-family: 'Lato', sans-serif;
+    background-color: #c0c0c0;
+}
+
+.local p {
+    font-family: 'Lato', sans-serif ;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.midias {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Mega Rodapé */
+
+.bg-rodape1{
+    background-color: #312b45;
+    font-family: 'Latto',sans-serif !important;
+}
+
+.bg-rodape1 ul li{
+    list-style: none;
+}
+
+.bg-rodape1 h4 {
+    text-align: center;
+    color: #c0c0c0;
+}
+
+.bg-rodape1 p {
+    text-align: center;
+    color: #c0c0c0;
+}
+
+.bg-rodape1 .endereco {
+    text-align-last: right;
+}
+
+.underline-footer {
+    content: '';
+    border-top: 2px solid #c0c0c0;
+    width: 270px;
+    display: block;
+    margin-bottom: 8px;
+    margin: -8px auto 0 auto;
+}
+
+a.icone-social{
+    color: #b3aec2;
+}
+
+.bg-rodape1 ul{
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0px;;
+}
+
+.email {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* Configurações Gerais */
+
+.underline{
+    content: '';
+    border-top: 2px solid #c0c0c0;
+    width: 350px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}
+
+.sombra:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+

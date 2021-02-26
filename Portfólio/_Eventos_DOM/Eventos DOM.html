@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+
+    <style>
+
+        body{
+            padding-top: 60px;
+            background: rgba(39, 39, 233, 0.534);
+            font: normal 15pt Arial;
+        }
+
+        header{
+            text-shadow: 5px 5px 10px black;
+            margin: 0px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        section{
+            box-shadow: 5px 5px 10px black; 
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            line-height: 200px;
+            margin: auto;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            font-style: italic;
+            font-size: 20pt;
+        }
+    
+    </style>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Eventos DOM</h1>
+        <h3>mouseover, mouseout e click</h3>
+    </header>
+
+
+
+    <section id="area">
+       
+        Interaja...
+
+    </section>
+    
+    <footer>
+        <p>&copy;Victor</p>
+    </footer>
+
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseover', entrar)
+        a.addEventListener('mouseout', sair)
+
+
+        function clicar() {
+            a.innerText = 'Você clicou na área :)'
+            a.style.background = 'red'
+        }
+
+        function entrar() {
+            a.innerText = 'Ta quente'
+            a.style.background = "green"
+        }
+
+        function sair() {
+            a.innerText = 'Esfriou :/'
+            a.style.background = 'yellow'
+        }
+
+        
+
+    </script>
+
+</body>
+
+</html>
