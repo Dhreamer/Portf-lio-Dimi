@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+
+    <style>
+        body{
+            padding-top: 60px;
+            background: rgba(39, 39, 233, 0.534);
+            font: normal 15pt Arial;
+        }
+
+        header{
+            text-shadow: 5px 5px 10px black;
+            margin: 0px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        section{
+            box-shadow: 5px 5px 10px black; 
+            background-color: rgb(180, 178, 178);
+            width: 500px;
+            height: 250px;
+            padding: 0px 10px 0px 10px;
+            border-radius: 10px;
+            line-height: 120px;
+            margin: auto;
+            
+        }
+
+        div#res{
+            font-style: italic;
+            margin: -130px 50px 130px 90px;
+        }
+    
+        footer {
+            color: white;
+            text-align: center;
+            font-style: italic;
+            font-size: 20pt;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Confirmando Nacionalidade</h1>
+    </header>
+    
+    <section>
+
+        Em que pais esta morando: <input type="text" name="txt1" placeholder="Insira o nome do seu país" id="txt1">
+        <input type="button" value="verificar"  onclick="confirmar()">
+
+    </section>
+    
+
+    <div id="res">
+        Resposta
+    </div>
+
+
+    <footer>
+        <p>&copy;Victor</p>
+    </footer>
+
+
+    <script>
+
+        function confirmar() {
+
+            var text = window.document.getElementById('txt1')
+            var res = window.document.getElementById('res')
+            var texto = (text.value)
+            res.innerHTML = `Você esta vivendo no <strong>${texto}</strong>`
+
+            if ( texto == 'Brasil') {
+                res.innerHTML = ('Você é Brasileiro')
+            }
+            
+            else if (texto == 'brasil') {
+                res.innerHTML = ('Você é Brasileiro')
+            }
+
+            else {
+                res.innerHTML = ("Você é estrangeiro")
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>

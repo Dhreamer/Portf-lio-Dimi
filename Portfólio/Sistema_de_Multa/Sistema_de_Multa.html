@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+
+    <style>
+        body{
+            padding-top: 60px;
+            background: rgba(39, 39, 233, 0.534);
+            font: normal 15pt Arial;
+        }
+
+        header{
+            text-shadow: 5px 5px 10px black;
+            margin: 0px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        section{
+            box-shadow: 5px 5px 10px black; 
+            background-color: rgb(180, 178, 178);
+            width: 500px;
+            height: 250px;
+            padding: 0px 10px 0px 10px;
+            border-radius: 10px;
+            line-height: 120px;
+            margin: auto;
+            
+        }
+
+        div#res{
+            font-style: italic;
+            margin-top: -50px;
+        }
+    
+        footer {
+            color: white;
+            text-align: center;
+            font-style: italic;
+            font-size: 20pt;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+    
+<header>
+    <h1>Sistemas de Multa</h1>
+</header>
+
+<section>
+
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="verificar" onclick="calcular()">
+
+    <div id="res"> 
+        Resultado
+    </div>
+    
+</section>
+
+<footer>
+
+    <p>&copy;Victor</p>
+    
+</footer>
+
+<script>
+    
+    function calcular() {
+
+        var txtv = window.document.getElementById('txtvel')
+        var res = window.document.getElementById('res')
+        var vel = Number(txtv.value)
+        res.innerHTML = `<p> Sua velocidade é de <strong>${vel} Km/h </strong><p>`
+
+        if (vel > 60){
+            res.innerHTML = ('<p> Você ultrapassou o limite de velocidade: <strong>MULTADO</strong<p>')
+            
+        } 
+        
+        else {
+            res.innerHTML = ("<p> Parabens, você esta dentro do limite de velocidade. !<p>")
+
+        }
+
+    }
+                
+</script>
+
+</body>
+
+</html>
